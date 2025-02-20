@@ -6,7 +6,7 @@ A local art gallery is looking for curated digital forms of abstract art using C
 
 Below your artwork, include a form for visitors to input their name and email if they are interested in purchasing a digital copy of your work.
 
-Remember to use the MDN documentation if you need help. An internet search for "mdn <thing you are trying to do>" usually works great for getting you to the correct MDN page you want!
+Remember to use the MDN documentation if you need help. An internet search for "mdn `<thing you are trying to do>`" usually works great for getting you to the correct MDN page you want!
 
 Webpage using rectangles, circles, and triangles to make a piece of art.
 
@@ -22,6 +22,6 @@ You must use z-index and hierarchical selectors in the code.
 Use common shorthand where applicable.
 Add an HTML form to collect the names and emails of interested visitors.
 It should have a submit button and the form's action will take the user to another HTML page.
-Note: the form does not actually need to collect information! You can direct the user to another HTML page by assigning a value to the <form>'s action attribute.
+Note: the form does not actually need to collect information! You can direct the user to another HTML page by assigning a value to the `<form>`'s action attribute.
 
 ## My Notes
