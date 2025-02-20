@@ -25,3 +25,10 @@ Webpage using rectangles, circles, and triangles to make a piece of art.
 - Note: the form does not actually need to collect information! You can direct the user to another HTML page by assigning a value to the `<form>`'s action attribute.
 
 ## My Notes
+
+![golden ratio diagram](image.png)
+I wanted to play with overlaying css grid and flexbox organization patterns.
+
+The background of this image is organized in the manner of the "golden ratio" using css grid. I chose a blue that I liked and then simply increased the amount of green by 10 for each grid using https://htmlcolorcodes.com/.
+
+The foreground overlays text using a variety of spacing methods and z-indexes, allowing playful overlay. The colors were curated from another golden ratio source: https://goldenratiocolors.com/starter-colour-palette-scheme-base-colours/. Font sizes were also based on the golden ratio multiple 1.618.

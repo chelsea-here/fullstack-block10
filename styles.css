@@ -1,0 +1,104 @@
+.artContainer {
+  position: relative;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: auto;
+  height: 80vh;
+  background-color: red;
+}
+
+/* this box class will contain the background and foreground overlayed and so is positioned absolutely, within the relatively positioned artContainer */
+.box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.background {
+  display: grid;
+  grid-template-areas:
+    "a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b"
+    "a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b"
+    "a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b"
+    "a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b"
+    "a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b"
+    "a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b"
+    "a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b"
+    "a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b"
+    "a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b"
+    "a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b"
+    "a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b"
+    "a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b"
+    "a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b"
+    "a a a a a a a a a a a a a a a a a a a a a e e e f f c c c c c c c c"
+    "a a a a a a a a a a a a a a a a a a a a a e e e f f c c c c c c c c"
+    "a a a a a a a a a a a a a a a a a a a a a d d d d d c c c c c c c c"
+    "a a a a a a a a a a a a a a a a a a a a a d d d d d c c c c c c c c"
+    "a a a a a a a a a a a a a a a a a a a a a d d d d d c c c c c c c c"
+    "a a a a a a a a a a a a a a a a a a a a a d d d d d c c c c c c c c"
+    "a a a a a a a a a a a a a a a a a a a a a d d d d d c c c c c c c c";
+}
+
+.gridA {
+  grid-area: a;
+  background-color: #48b4e0;
+}
+
+.gridB {
+  grid-area: b;
+  background-color: #48bee0;
+}
+
+.gridC {
+  grid-area: c;
+  background-color: #48c8e0;
+}
+
+.gridD {
+  grid-area: d;
+  background-color: #48d2e0;
+}
+
+.gridE {
+  grid-area: e;
+  background-color: #48dce0;
+}
+
+.gridF {
+  grid-area: f;
+  background-color: #48e6e0;
+}
+
+.foreground01 {
+  z-index: 1;
+  display: flex;
+  color: #9e9e00;
+}
+
+.foreground02 {
+  z-index: 2;
+  display: flex;
+  color: #ff9e00;
+}
+
+.foreground03 {
+  z-index: 3;
+  display: flex;
+  color: #fff10e;
+}
+
+.small {
+  font-size: 200%;
+}
+
+.medium {
+  font-size: 523.6%;
+}
+
+.large {
+  font-size: 1370.7%;
+}
